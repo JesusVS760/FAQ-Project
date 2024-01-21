@@ -34,6 +34,10 @@
 }
 .card-description-active {
   display: block;
+  margin-top: -50px;
+  padding: 35px 0;
+  font-size: 1.1rem;
+  color: hsl(292, 16%, 49%);
 }
 .card-question > h3 {
   margin-top: -10px;
