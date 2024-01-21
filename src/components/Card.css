@@ -3,30 +3,36 @@
   display: flex;
   justify-content: center;
 }
-.card-body {
-  background-image: url(../images/background-pattern-desktop.svg);
-  background-size: cover;
+.card-body > img {
+  min-width: 100%;
+  background: hsl(275, 100%, 97%);
 }
 .card {
-  max-width: 700px;
+  margin-top: -150px;
+  max-width: 600px;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: start;
-  padding: 25px;
-  border-radius: 20px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .card-header > h1 {
   display: flex;
+  font-size: 3rem;
   align-items: center;
+  color: hsl(292, 42%, 14%);
 }
 .card-question > h3 {
+  margin-top: -10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
   font-size: 1.2rem;
   gap: 20px;
+  color: hsl(292, 42%, 14%);
 }
 .card-question > h3 > img {
   width: 30px;

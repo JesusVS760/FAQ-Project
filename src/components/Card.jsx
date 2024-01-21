@@ -2,10 +2,12 @@ import React from "react";
 import Star from "../images/icon-star.svg";
 import Plus from "../images/icon-plus.svg";
 import "./Card.css";
+import DeskBackground from "../images/background-pattern-desktop.svg";
 
 const Card = () => {
   return (
     <div className="card-body">
+      <img src={DeskBackground} />
       <div className="container">
         <div className="card">
           <div className="card-header">
